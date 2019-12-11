@@ -1,0 +1,34 @@
+@import 'variable';
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: $font;
+    background-color: $bgcolor;
+    color: $txtcol;
+    padding: 0;
+    margin: 0;
+}
+h1, h2, h3, h4 ,h5, h6 {
+    font-weight: lighter;
+}
+a {
+    color: $linkcol;
+}
+.reset {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.sect {
+    background-color: $sectbg1;
+    padding: 20px 0;
+}

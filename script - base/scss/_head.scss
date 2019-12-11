@@ -1,0 +1,13 @@
+@import 'variable';
+@import 'base';
+.titlebar {
+    border-top: 1px solid #ccc;
+    background-color: $sectbg1;
+    h1 {
+        @extend .reset;
+        font-size: 0.95rem;
+        line-height: 30px;
+        text-align: center;
+    }
+    padding: 10px 0;
+}

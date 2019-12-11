@@ -1,0 +1,13 @@
+.bgimg {
+    background-image: url(/img/bg-sample.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0;
+    figure {
+        margin: 0;
+        padding: 0;
+        max-height: 350px;
+        overflow: hidden;
+        text-align: center;
+    }
+}
